@@ -24,7 +24,7 @@ jobs:
           distribution: 'zulu'
           java-version: 11
       - name: Run tests with maven
-        working-directory: webriver_java
+        working-directory: webrdiver_java
         run: mvn test
 
 #What steps within each job
